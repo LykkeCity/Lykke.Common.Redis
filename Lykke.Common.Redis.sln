@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lykke.Common.Redis", "src\Lykke.Common.Redis\Lykke.Common.Redis.csproj", "{DB9C5D2B-A4F2-499C-AFF6-9EBEFF058231}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{900B91CA-0EB2-4367-8E50-978721EB6349}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AB82915B-AD9C-487F-B65C-964A68156BBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lykke.Common.Redis.Tests", "tests\Lykke.Common.Redis.Tests\Lykke.Common.Redis.Tests.csproj", "{5EF59337-D00D-4C08-858F-C2EC14936631}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB9C5D2B-A4F2-499C-AFF6-9EBEFF058231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB9C5D2B-A4F2-499C-AFF6-9EBEFF058231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB9C5D2B-A4F2-499C-AFF6-9EBEFF058231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB9C5D2B-A4F2-499C-AFF6-9EBEFF058231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EF59337-D00D-4C08-858F-C2EC14936631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF59337-D00D-4C08-858F-C2EC14936631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EF59337-D00D-4C08-858F-C2EC14936631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EF59337-D00D-4C08-858F-C2EC14936631}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB9C5D2B-A4F2-499C-AFF6-9EBEFF058231} = {900B91CA-0EB2-4367-8E50-978721EB6349}
+		{5EF59337-D00D-4C08-858F-C2EC14936631} = {AB82915B-AD9C-487F-B65C-964A68156BBA}
+	EndGlobalSection
+EndGlobal
